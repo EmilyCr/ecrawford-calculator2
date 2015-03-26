@@ -1,8 +1,7 @@
 extends layout
 
 block content
-    div(class='container, col-lg-4, col-lg-offset-1 app')
-        h1(class='text-center')= title
-        h2(class='text-center')= 'Welcome to Assignment 1'
-        p(class='text-center')
-            strong= message
+  h1= title
+  // Getting the variables from calculator.js to output onto the page.
+  p #{title} <br>#{message} <br>#{message2}
+  
